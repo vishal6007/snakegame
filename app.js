@@ -194,7 +194,7 @@ init();
 
 
 
-const id = setInterval(gameLoop, 80);
+const id = setInterval(gameLoop,180);
 
 
 
