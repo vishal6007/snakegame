@@ -64,7 +64,7 @@ const snake = {
 
             if (nextY * cs < 0) {
                 clearInterval(id);
-                pen.fillStyle = 'lightgreen';
+                pen.fillStyle = 'red';
                 pen.fillText('Game Over', 50, 100);
             }
             
@@ -75,7 +75,7 @@ const snake = {
 
             if (nextY * cs >= H) {
                 clearInterval(id);
-                pen.fillStyle = 'lightgreen';
+                pen.fillStyle = 'red';
                 pen.fillText('Game Over', 50, 100);
             }
         }
@@ -85,7 +85,7 @@ const snake = {
 
             if (nextX * cs < 0) {
                 clearInterval(id);
-                pen.fillStyle = 'lightgreen';
+                pen.fillStyle = 'red';
                 pen.fillText('Game Over', 50, 100);
             }
 
@@ -96,7 +96,7 @@ const snake = {
 
             if (nextX * cs >= W) {
                 clearInterval(id);
-                pen.fillStyle = 'lightgreen';
+                pen.fillStyle = 'red';
                 pen.fillText('Game Over', 50, 100);
             }
 
